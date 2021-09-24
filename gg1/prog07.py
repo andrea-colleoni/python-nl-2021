@@ -4,7 +4,7 @@ print(type(d))
 try:
     print('ok')
     print(d['nonesiste'])
-    # istruzioni...
+    # istruzioni.....
     print('dopo eccezione')
 except KeyError as ke:
     print(ke)
